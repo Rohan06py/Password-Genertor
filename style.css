@@ -1,0 +1,39 @@
+body {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #10b981;
+    cursor: pointer;
+    margin-top: -6px;
+    box-shadow: 0 0 5px rgba(16, 185, 129, 0.5);
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: #374151;
+    border-radius: 2px;
+}
+
+input[type=range]::-moz-range-thumb {
+    height: 16px;
+    width: 16px;
+    border: none;
+    border-radius: 50%;
+    background: #10b981;
+    cursor: pointer;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: #374151;
+    border-radius: 2px;
+}
